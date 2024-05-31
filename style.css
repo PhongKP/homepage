@@ -323,3 +323,7 @@ body {
     width: 100%;
     outline: none;
 }
+
+.list-language {
+    margin-left: 30px;
+}
