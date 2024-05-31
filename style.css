@@ -24,8 +24,8 @@ body {
 
 .fh {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 .fv {
@@ -89,9 +89,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 30px;
 }
 
 .contact-info__block--center {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
