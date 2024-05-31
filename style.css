@@ -44,8 +44,9 @@ body {
 
 .resume__block {
     border-bottom: 3px solid var(--border-color);
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     margin-bottom: 15px;
+    position: relative;
 }
 
 @media screen and (max-width: 576px) {
@@ -162,13 +163,44 @@ body {
 
 .skills__header {
     color: var(--secondary-text-color);
-    text-align: center;
+    text-align: justify;
     margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.skills__category {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.skills__subheader {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0073e6;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.skill_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill_list li {
+    margin: 5px 0;
+    display: flex;
 }
 
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+}
+
+.skills__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    margin-left: 30px;
 }
 
 .experiences {
@@ -180,6 +212,7 @@ body {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+    font-size: 30px;
 }
 
 .experiences__company-header-durability {
@@ -187,6 +220,10 @@ body {
     text-align: left;
     margin-bottom: 10px;
     font-size: 15px;
+}
+
+.experiences__company {
+    margin-top: 42px;
 }
 
 .experiences__company-header-name {
@@ -220,6 +257,17 @@ body {
     padding-left: 20px;
 }
 
+.teamsize {
+    margin-left: 5rem;
+}
+
+.seperate {
+    position: absolute;
+    border-bottom: 3px solid #ff9a00;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
 .additional-info {
     flex: 1 1 40%;
 }
@@ -232,6 +280,7 @@ body {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+    font-size: 30px;
 }
 
 .additional-info__education-university-durability {
@@ -259,8 +308,18 @@ body {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 30px;
 }
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.seperate-languge {
+    position: absolute;
+    border-bottom: 3px solid #ff9a0045;
+    margin-bottom: 15px;
+    width: 100%;
+    outline: none;
 }
